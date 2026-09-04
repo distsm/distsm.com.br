@@ -1,0 +1,5 @@
+Backup do arquivo icone-animais-companhia.svg antes da substituição.
+
+Origem: https://github.com/distsm/distsm.com.br/blob/main/icone-animais-companhia.svg
+Blob SHA: e3ec27a4a715062e4a4de994596fc397d629b2e8
+CommitOID: dc20b6fb9222aedff50938728046761c3053622d
