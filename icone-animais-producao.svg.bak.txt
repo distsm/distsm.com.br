@@ -1,0 +1,5 @@
+Backup do arquivo icone-animais-producao.svg antes da substituição.
+
+Origem: https://github.com/distsm/distsm.com.br/blob/main/icone-animais-producao.svg
+Blob SHA: f752005d020c88f7eb3b4c23a3e3729c972166e0
+CommitOID: dc20b6fb9222aedff50938728046761c3053622d
