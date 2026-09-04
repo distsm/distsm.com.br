@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Distribuidora SM - Distribuidora de Produtos Veterinários. Variedade, Agilidade e Confiança desde 2004.">
+  <meta name="theme-color" content="#0b2d55">
   <title>Distribuidora SM | Produtos Veterinários</title>
   <link rel="stylesheet" href="style.css">
-  <meta name="theme-color" content="#0b2d55">
 </head>
 <body>
   <header class="header">
@@ -14,7 +14,7 @@
       <a class="logo" href="#inicio" aria-label="Distribuidora SM - início">
         <img src="logo.png" alt="Distribuidora SM - Vida Animal">
       </a>
-      <nav>
+      <nav aria-label="Navegação principal">
         <a href="#inicio">Início</a>
         <a href="#produtos">Produtos</a>
         <a href="#empresa">A Empresa</a>
@@ -37,7 +37,6 @@
             <a class="btn secondary" href="#produtos">Ver produtos</a>
           </div>
         </div>
-
         <div class="hero-card">
           <img class="hero-logo" src="logo.png" alt="Distribuidora SM">
           <p>Produtos veterinários para atender suas necessidades com confiança.</p>
@@ -50,45 +49,37 @@
       <div class="container">
         <p class="eyebrow">NOSSO MIX</p>
         <h2 class="section-title">Produtos</h2>
-        <p class="section-intro">Encontre produtos para diferentes necessidades do mercado veterinário.</p>
+        <p class="section-intro">Conheça nossas principais categorias de produtos veterinários.</p>
 
-        <div class="products products-new">
-          <article class="product product-color production">
-            <div class="product-icon">🐄</div>
-            <h3>Animais de Produção</h3>
-            <p>Bovinos, suínos, aves, equinos, caprinos e outros animais de produção.</p>
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-photo"><img src="prod-producao.jpg" alt="Animais de produção em uma propriedade rural"></div>
+            <div class="product-body"><span class="product-number">01</span><h3>Animais de Produção</h3><p>Soluções para bovinos, equinos, suínos, caprinos, aves e outros animais de produção.</p></div>
           </article>
 
-          <article class="product product-color companion">
-            <div class="product-icon">🐶</div>
-            <h3>Animais de Companhia</h3>
-            <div class="pet-icons" aria-hidden="true">🐶 🐱 🐦</div>
-            <p>Produtos para cães, gatos e aves de companhia.</p>
+          <article class="product-card">
+            <div class="product-photo"><img src="prod-companhia.jpg" alt="Cachorro, gato e passarinho de companhia"></div>
+            <div class="product-body"><span class="product-number">02</span><h3>Animais de Companhia</h3><p>Produtos para cães, gatos e aves, com foco no cuidado e bem-estar dos animais.</p></div>
           </article>
 
-          <article class="product product-color equipment">
-            <div class="product-icon">💉</div>
-            <h3>Pistolas de Vacinação e Seringas Descartáveis</h3>
-            <p>Equipamentos e acessórios para aplicação e manejo veterinário.</p>
+          <article class="product-card">
+            <div class="product-photo"><img src="prod-vacinacao.jpg" alt="Pistola de vacinação, seringas e materiais veterinários"></div>
+            <div class="product-body"><span class="product-number">03</span><h3>Pistolas de Vacinação e Seringas Descartáveis</h3><p>Equipamentos e materiais para aplicação e manejo veterinário.</p></div>
           </article>
 
-          <article class="product product-color pests">
-            <div class="product-icon">🕷️</div>
-            <h3>Pragas Urbanas</h3>
-            <div class="pest-icons" aria-hidden="true">🕷️ 🐜 🪲 🐌</div>
-            <p>Produtos voltados ao controle de carrapatos, cupins, formigas e lesmas.</p>
+          <article class="product-card">
+            <div class="product-photo"><img src="prod-pragas.jpg" alt="Carrapato, cupim, formiga e lesma"></div>
+            <div class="product-body"><span class="product-number">04</span><h3>Pragas Urbanas</h3><p>Produtos destinados ao controle de carrapatos, cupins, formigas e lesmas.</p></div>
           </article>
 
-          <article class="product product-color fencing">
-            <div class="product-icon">🪢</div>
-            <h3>Cordas e Cerca Elétrica</h3>
-            <p>Materiais para manejo, contenção e instalações.</p>
+          <article class="product-card">
+            <div class="product-photo"><img src="prod-cordas.jpg" alt="Cerca elétrica, fios e equipamentos de manejo"></div>
+            <div class="product-body"><span class="product-number">05</span><h3>Cordas e Cerca Elétrica</h3><p>Materiais para manejo, contenção e instalações em propriedades rurais.</p></div>
           </article>
 
-          <article class="product product-color homeopathy">
-            <img class="homeo-product-image" src="homeopatia-homeo-vita.png" alt="Homeo-Vita Parasitário, produto de homeopatia animal">
-            <h3>Homeopatia e Suplementação Animal</h3>
-            <p>Produtos para diferentes necessidades de cuidados e suplementação animal.</p>
+          <article class="product-card">
+            <div class="product-photo"><img src="homeopatia-homeo-vita.png" alt="Homeo-Vita Parasitário, produto de homeopatia animal"></div>
+            <div class="product-body"><span class="product-number">06</span><h3>Homeopatia e Suplementação Animal</h3><p>Produtos para diferentes necessidades de cuidados e suplementação animal.</p></div>
           </article>
         </div>
       </div>
@@ -98,25 +89,15 @@
       <div class="container">
         <p class="eyebrow">COMO COMPRAR</p>
         <h2 class="section-title">Vendas</h2>
-        <p class="section-intro">Escolha como deseja realizar sua compra.</p>
-
+        <p class="section-intro">Escolha a modalidade de compra que você procura.</p>
         <div class="sales-grid">
-          <a class="sales-card wholesale" href="https://wa.me/5565999071166?text=Olá!%20Gostaria%20de%20informações%20sobre%20vendas%20no%20atacado." target="_blank" rel="noopener">
-            <div class="sales-icon">WA</div>
-            <div>
-              <span class="sales-label">ATACADO</span>
-              <strong>Fale com nossa equipe pelo WhatsApp</strong>
-              <small>(65) 99907-1166</small>
-            </div>
+          <a class="sales-card" href="https://wa.me/5565999071166?text=Olá!%20Gostaria%20de%20informações%20sobre%20vendas%20no%20atacado." target="_blank" rel="noopener">
+            <div class="sales-icon">01</div>
+            <div><span class="sales-label">ATACADO</span><strong>Fale com nossa equipe pelo WhatsApp</strong><small>(65) 99907-1166</small></div>
           </a>
-
-          <a class="sales-card retail" href="https://s.shopee.com.br/LmyEhmrbj" target="_blank" rel="noopener noreferrer">
-            <div class="sales-icon">S</div>
-            <div>
-              <span class="sales-label">VAREJO</span>
-              <strong>Compre diretamente em nossa loja na Shopee</strong>
-              <small>Ir para a loja na Shopee ↗</small>
-            </div>
+          <a class="sales-card" href="https://s.shopee.com.br/LmyEhmrbj" target="_blank" rel="noopener noreferrer">
+            <div class="sales-icon">02</div>
+            <div><span class="sales-label">VAREJO</span><strong>Compre diretamente em nossa loja na Shopee</strong><small>Acessar loja online ↗</small></div>
           </a>
         </div>
       </div>
@@ -135,15 +116,8 @@
 
     <section id="empresa" class="section about">
       <div class="container about-grid">
-        <div>
-          <p class="eyebrow">SOBRE A EMPRESA</p>
-          <h2 class="section-title">Experiência que atende o Brasil.</h2>
-        </div>
-        <div>
-          <p>Localizada em Várzea Grande, no Mato Grosso, a <strong>Distribuidora SM</strong> foi fundada em 2004.</p>
-          <p>Desde então, trabalhamos para atender nossos clientes com <strong>variedade, qualidade e agilidade</strong>, oferecendo produtos veterinários e buscando construir relações de confiança.</p>
-          <p>Atendemos clientes em todo o território nacional.</p>
-        </div>
+        <div><p class="eyebrow">SOBRE A EMPRESA</p><h2 class="section-title">Experiência que atende o Brasil.</h2></div>
+        <div><p>Localizada em Várzea Grande, no Mato Grosso, a <strong>Distribuidora SM</strong> foi fundada em 2004.</p><p>Desde então, trabalhamos para atender nossos clientes com <strong>variedade, qualidade e agilidade</strong>, oferecendo produtos veterinários e buscando construir relações de confiança.</p><p>Atendemos clientes em todo o território nacional.</p></div>
       </div>
     </section>
 
@@ -151,43 +125,18 @@
       <div class="container">
         <p class="eyebrow">FALE CONOSCO</p>
         <h2 class="section-title">Entre em contato com a Distribuidora SM.</h2>
-        <p class="section-intro">Nossa equipe está à disposição para atender você e apresentar nossas opções de produtos veterinários.</p>
-
+        <p class="section-intro">Nossa equipe está à disposição para atender você.</p>
         <div class="contact-grid">
-          <a class="contact-card" href="https://wa.me/5565999045686?text=Olá!%20Sou%20cliente%20e%20gostaria%20de%20fazer%20uma%20cotação." target="_blank" rel="noopener">
-            <span class="contact-icon">WA</span>
-            <div><strong>WhatsApp</strong><small>(65) 99904-5686</small></div>
-          </a>
-
-          <a class="contact-card" href="tel:+556536642563">
-            <span class="contact-icon">☎</span>
-            <div><strong>Telefone fixo</strong><small>(65) 3664-2563</small></div>
-          </a>
-
-          <a class="contact-card" href="mailto:distsm@gmail.com">
-            <span class="contact-icon">@</span>
-            <div><strong>E-mail</strong><small>distsm@gmail.com</small></div>
-          </a>
-
-          <a class="contact-card" href="https://www.instagram.com/distsm/" target="_blank" rel="noopener noreferrer">
-            <span class="contact-icon">IG</span>
-            <div><strong>Instagram</strong><small>@distsm</small></div>
-          </a>
+          <a class="contact-card" href="https://wa.me/5565999045686?text=Olá!%20Sou%20cliente%20e%20gostaria%20de%20fazer%20uma%20cotação." target="_blank" rel="noopener"><span class="contact-icon">01</span><div><strong>WhatsApp</strong><small>(65) 99904-5686</small></div></a>
+          <a class="contact-card" href="tel:+556536642563"><span class="contact-icon">02</span><div><strong>Telefone fixo</strong><small>(65) 3664-2563</small></div></a>
+          <a class="contact-card" href="mailto:distsm@gmail.com"><span class="contact-icon">03</span><div><strong>E-mail</strong><small>distsm@gmail.com</small></div></a>
+          <a class="contact-card" href="https://www.instagram.com/distsm/" target="_blank" rel="noopener noreferrer"><span class="contact-icon">04</span><div><strong>Instagram</strong><small>@distsm</small></div></a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container footer-content">
-      <div>
-        <img class="footer-logo" src="logo.png" alt="Distribuidora SM">
-      </div>
-      <div>Várzea Grande - Mato Grosso</div>
-      <div>© 2026 Distribuidora SM</div>
-    </div>
-  </footer>
-
+  <footer><div class="container footer-content"><div><img class="footer-logo" src="logo.png" alt="Distribuidora SM"></div><div>Várzea Grande - Mato Grosso</div><div>© 2026 Distribuidora SM</div></div></footer>
   <a class="floating-whatsapp" href="https://wa.me/5565999045686?text=Olá!%20Gostaria%20de%20falar%20com%20a%20Distribuidora%20SM." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">WA</a>
 </body>
 </html>
