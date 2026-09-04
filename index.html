@@ -23,6 +23,20 @@
       </nav>
       <a class="nav-whatsapp" href="https://wa.me/5565999045686" target="_blank" rel="noopener">WhatsApp</a>
     </div>
+
+    <!-- Barra de categorias e pesquisa -->
+    <div class="category-search">
+      <div class="container category-inner">
+        <button class="cat-btn">☰ TODAS AS CATEGORIAS</button>
+        <form class="search-form" action="#" role="search">
+          <input type="search" placeholder="O que você procura?">
+          <button class="search-btn" aria-label="Pesquisar">🔍</button>
+        </form>
+        <div class="quick-links">
+          <span class="welcome">Olá, seja bem-vindo(a)</span>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main>
@@ -45,41 +59,68 @@
       </div>
     </section>
 
+    <!-- Faixa de recursos (removida a compra segura) -->
+    <section class="feature-row">
+      <div class="container feature-inner">
+        <div class="feature-item">
+          <div class="feat-icon">🚚</div>
+          <div>
+            <strong>ENTREGA EM TODO O BRASIL!</strong>
+            <p>Frete grátis para MG em compras acima de R$ 500,00</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feat-icon">💳</div>
+          <div>
+            <strong>PAGAMENTOS</strong>
+            <p>Pix | Boleto | Depósito | Crédito Parcelado | Débito</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feat-icon">🛒</div>
+          <div>
+            <strong>COMO COMPRAR</strong>
+            <p>Compras no Varejo | Compras no Atacado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="produtos" class="section products-section">
       <div class="container">
         <p class="eyebrow">NOSSO MIX</p>
-        <h2 class="section-title">Produtos</h2>
-        <p class="section-intro">Conheça nossas principais categorias de produtos veterinários.</p>
+        <h2 class="section-title">PRODUTOS</h2>
+        <p class="section-intro">Encontre tudo o que você precisa para o cuidado e bem-estar animal.</p>
 
         <div class="products-grid">
           <article class="product-card">
             <div class="product-photo"><img src="prod-producao.jpg" alt="Animais de produção em uma propriedade rural"></div>
-            <div class="product-body"><span class="product-number">01</span><h3>Animais de Produção</h3><p>Soluções para bovinos, equinos, suínos, caprinos, aves e outros animais de produção.</p></div>
+            <div class="product-body"><span class="product-number">ANIMAIS DE PRODUÇÃO</span><h3>Animais de Produção</h3></div>
           </article>
 
           <article class="product-card">
             <div class="product-photo"><img src="prod-companhia.jpg" alt="Cachorro, gato e passarinho de companhia"></div>
-            <div class="product-body"><span class="product-number">02</span><h3>Animais de Companhia</h3><p>Produtos para cães, gatos e aves, com foco no cuidado e bem-estar dos animais.</p></div>
+            <div class="product-body"><span class="product-number">ANIMAIS DE COMPANHIA</span><h3>Animais de Companhia</h3></div>
           </article>
 
           <article class="product-card">
             <div class="product-photo"><img src="prod-vacinacao.jpg" alt="Pistola de vacinação, seringas e materiais veterinários"></div>
-            <div class="product-body"><span class="product-number">03</span><h3>Pistolas de Vacinação e Seringas Descartáveis</h3><p>Equipamentos e materiais para aplicação e manejo veterinário.</p></div>
+            <div class="product-body"><span class="product-number">PISTOLAS &amp; SERINGAS</span><h3>Pistolas de Vacinação e Seringas Descartáveis</h3></div>
           </article>
 
           <article class="product-card">
             <div class="product-photo"><img src="prod-pragas.jpg" alt="Carrapato, cupim, formiga e lesma"></div>
-            <div class="product-body"><span class="product-number">04</span><h3>Pragas Urbanas</h3><p>Produtos destinados ao controle de carrapatos, cupins, formigas e lesmas.</p></div>
+            <div class="product-body"><span class="product-number">PRAGAS URBANAS</span><h3>Pragas Urbanas</h3></div>
           </article>
 
           <article class="product-card">
             <div class="product-photo"><img src="prod-cordas.jpg" alt="Cerca elétrica, fios e equipamentos de manejo"></div>
-            <div class="product-body"><span class="product-number">05</span><h3>Cordas e Cerca Elétrica</h3><p>Materiais para manejo, contenção e instalações em propriedades rurais.</p></div>
+            <div class="product-body"><span class="product-number">CORDAS &amp; CERCA</span><h3>Cordas e Cerca Elétrica</h3></div>
           </article>
 
           <article class="product-card">
             <div class="product-photo"><img src="homeopatia-homeo-vita.png" alt="Homeo-Vita Parasitário, produto de homeopatia animal"></div>
-            <div class="product-body"><span class="product-number">06</span><h3>Homeopatia e Suplementação Animal</h3><p>Produtos para diferentes necessidades de cuidados e suplementação animal.</p></div>
+            <div class="product-body"><span class="product-number">HOMEOPATIA</span><h3>Homeopatia e Suplementação Animal</h3></div>
           </article>
         </div>
       </div>
@@ -117,7 +158,7 @@
     <section id="empresa" class="section about">
       <div class="container about-grid">
         <div><p class="eyebrow">SOBRE A EMPRESA</p><h2 class="section-title">Experiência que atende o Brasil.</h2></div>
-        <div><p>Localizada em Várzea Grande, no Mato Grosso, a <strong>Distribuidora SM</strong> foi fundada em 2004.</p><p>Desde então, trabalhamos para atender nossos clientes com <strong>variedade, qualidade e agilidade</strong>, oferecendo produtos veterinários e buscando construir relações de confiança.</p><p>Atendemos clientes em todo o território nacional.</p></div>
+        <div><p>Localizada em Várzea Grande, no Mato Grosso, a <strong>Distribuidora SM</strong> foi fundada em 2004.</p><p>Desde então, trabalhamos para atender nossos clientes com <strong>variedade e qualidade</strong>.</p></div>
       </div>
     </section>
 
@@ -136,7 +177,23 @@
     </section>
   </main>
 
-  <footer><div class="container footer-content"><div><img class="footer-logo" src="logo.png" alt="Distribuidora SM"></div><div>Várzea Grande - Mato Grosso</div><div>© 2026 Distribuidora SM</div></div></footer>
-  <a class="floating-whatsapp" href="https://wa.me/5565999045686?text=Olá!%20Gostaria%20de%20falar%20com%20a%20Distribuidora%20SM." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">WA</a>
+  <!-- Faixa de benefícios -->
+  <section class="benefits-band">
+    <div class="container benefits-inner">
+      <div class="benefit"><strong>Qualidade garantida</strong><span>Produtos de confiança</span></div>
+      <div class="benefit"><strong>Entrega rápida</strong><span>Para todo o Brasil</span></div>
+      <div class="benefit"><strong>Melhores marcas</strong><span>Parcerias de qualidade</span></div>
+      <div class="benefit"><strong>Atendimento especializado</strong><span>Suporte para você</span></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div><img class="footer-logo" src="logo.png" alt="Distribuidora SM"></div>
+      <div>Várzea Grande - Mato Grosso</div>
+      <div>© 2026 Distribuidora SM</div>
+    </div>
+    <a class="floating-whatsapp" href="https://wa.me/5565999045686?text=Olá!%20Gostaria%20de%20falar%20com%20a%20Distribuidora%20SM." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">💬</a>
+  </footer>
 </body>
 </html>
