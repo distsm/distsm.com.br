@@ -50,37 +50,101 @@
         <h2 class="section-title">Produtos</h2>
         <p class="section-intro">Conheça nossas principais categorias de produtos veterinários.</p>
 
-        <div class="products-grid">
+        <!-- Cards em linha (rolagem horizontal em telas pequenas) -->
+        <div class="products-grid inline-row">
+
           <article class="product-card">
-            <div class="product-photo"><img src="prod-producao.jpg" alt="Animais de produção em uma propriedade rural"></div>
-            <div class="product-body"><span class="product-number">01</span><h3>Animais de Produção</h3><p>Soluções para bovinos, equinos, suínos, caprinos, aves e outros animais de produção.</p></div>
+            <div class="product-photo color-1">
+              <!-- ícone vacas -->
+              <svg class="category-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="32" cy="32" r="30" fill="none" />
+                <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 28c0-6 8-10 14-10s14 4 14 10v6c0 6-6 10-14 10s-14-4-14-10v-6z"/>
+                  <path d="M22 18s-2-6 6-6 6 6 6 6"/>
+                  <path d="M14 36c4-2 8 0 8 0"/>
+                </g>
+              </svg>
+              <h3 class="banner-title">ANIMAIS DE PRODUÇÃO</h3>
+            </div>
+            <div class="product-body"></div>
           </article>
 
           <article class="product-card">
-            <div class="product-photo"><img src="prod-companhia.jpg" alt="Cachorro, gato e passarinho de companhia"></div>
-            <div class="product-body"><span class="product-number">02</span><h3>Animais de Companhia</h3><p>Produtos para cães, gatos e aves, com foco no cuidado e bem-estar dos animais.</p></div>
+            <div class="product-photo color-2">
+              <!-- ícone animais de companhia -->
+              <svg class="category-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <g fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 38c0-6 4-10 8-10s8 4 8 10v4"/>
+                  <path d="M38 20c2-4 6-6 10-4"/>
+                  <circle cx="24" cy="26" r="2"/>
+                </g>
+              </svg>
+              <h3 class="banner-title">ANIMAIS DE COMPANHIA</h3>
+            </div>
+            <div class="product-body"></div>
           </article>
 
           <article class="product-card">
-            <div class="product-photo"><img src="prod-vacinacao.jpg" alt="Pistola de vacinação, seringas e materiais veterinários"></div>
-            <div class="product-body"><span class="product-number">03</span><h3>Pistolas de Vacinação e Seringas Descartáveis</h3><p>Equipamentos e materiais para aplicação e manejo veterinário.</p></div>
+            <div class="product-photo color-3">
+              <!-- ícone pistola e seringa -->
+              <svg class="category-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <g fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M10 40h28v-6l12-8v6h2"/>
+                  <path d="M40 20v-4"/>
+                  <path d="M46 16l6-6"/>
+                </g>
+              </svg>
+              <h3 class="banner-title">PISTOLAS DE VACINAÇÃO E SERINGAS DESCARTÁVEIS</h3>
+            </div>
+            <div class="product-body"></div>
           </article>
 
           <article class="product-card">
-            <div class="product-photo"><img src="prod-pragas.jpg" alt="Carrapato, cupim, formiga e lesma"></div>
-            <div class="product-body"><span class="product-number">04</span><h3>Pragas Urbanas</h3><p>Produtos destinados ao controle de carrapatos, cupins, formigas e lesmas.</p></div>
+            <div class="product-photo color-4">
+              <!-- ícone pragas -->
+              <svg class="category-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M32 18c6 0 10 4 10 10s-4 10-10 10-10-4-10-10 4-10 10-10z"/>
+                  <path d="M22 40c-4 4-6 8-6 12"/>
+                  <path d="M42 40c4 4 6 8 6 12"/>
+                </g>
+              </svg>
+              <h3 class="banner-title">PRAGAS URBANAS</h3>
+            </div>
+            <div class="product-body"></div>
           </article>
 
           <article class="product-card">
-            <div class="product-photo"><img src="prod-cordas.jpg" alt="Cerca elétrica, fios e equipamentos de manejo"></div>
-            <div class="product-body"><span class="product-number">05</span><h3>Cordas e Cerca Elétrica</h3><p>Materiais para manejo, contenção e instalações em propriedades rurais.</p></div>
+            <div class="product-photo color-5">
+              <!-- ícone cordas e cerca -->
+              <svg class="category-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 18v30M28 18v30M40 18v30M52 18v30"/>
+                  <path d="M10 26h44"/>
+                </g>
+              </svg>
+              <h3 class="banner-title">CORDAS E CERCA ELÉTRICA</h3>
+            </div>
+            <div class="product-body"></div>
           </article>
 
           <article class="product-card">
-            <div class="product-photo"><img src="homeopatia-homeo-vita.png" alt="Homeo-Vita Parasitário, produto de homeopatia animal"></div>
-            <div class="product-body"><span class="product-number">06</span><h3>Homeopatia e Suplementação Animal</h3><p>Produtos para diferentes necessidades de cuidados e suplementação animal.</p></div>
+            <div class="product-photo color-6">
+              <!-- ícone homeopatia (pacote) -->
+              <svg class="category-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <g fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="16" y="12" width="32" height="40" rx="4"/>
+                  <path d="M16 20h32"/>
+                  <path d="M24 36h16"/>
+                </g>
+              </svg>
+              <h3 class="banner-title">HOMEOPATIA E SUPLEMENTAÇÃO ANIMAL</h3>
+            </div>
+            <div class="product-body"></div>
           </article>
+
         </div>
+
       </div>
     </section>
 
