@@ -1,0 +1,5 @@
+Backup do arquivo icone-homeopatia-suplementacao.svg antes da substituição.
+
+Origem: https://github.com/distsm/distsm.com.br/blob/main/icone-homeopatia-suplementacao.svg
+Blob SHA: e65011651f2b797b9d1458049f1d517798d76f2a
+CommitOID: d37e40b5a9ca6b53e9866eaf97e1adaf6192fd01
