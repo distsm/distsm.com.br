@@ -1,0 +1,5 @@
+Backup do arquivo icone-cordas-cerca-eletrica.svg antes da substituição.
+
+Origem: https://github.com/distsm/distsm.com.br/blob/main/icone-cordas-cerca-eletrica.svg
+Blob SHA: bf1ee7267ec9e356b7a7fd97a979edf20001e82b
+CommitOID: d37e40b5a9ca6b53e9866eaf97e1adaf6192fd01
